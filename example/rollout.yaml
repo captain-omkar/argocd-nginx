@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nginx:latest
+        image: jemesbond/angular:v2
   strategy:
     blueGreen:
       activeService: myapp-green
